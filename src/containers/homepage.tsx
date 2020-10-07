@@ -1,3 +1,17 @@
+import Link from "next/link";
+
 export function homepage() {
-    return <h1>Hello</h1>
+    return <div><h1>Hello</h1>
+    
+    <Link href="/people">
+        <a>People</a>
+    </Link>
+
+    <hr/>
+
+    <Link href="/vehicles">
+        <a>Vehicles</a>
+    </Link>
+
+    </div>
 }
